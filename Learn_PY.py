@@ -111,7 +111,7 @@ for cont in range(num,0,-1):
     print (cont)
     sleep(0.9)
 sleep(0.6)
-print('gozei')
+print('bruh')
 
 '''
 
@@ -246,7 +246,6 @@ if __name__ == '__main__':
 '''
 
 
-
 #ASCII 'infinito'
 
 '''
@@ -273,13 +272,40 @@ for c in range(0,num):
     
     
 '''
+
+
+'''
     
-    
+
+#É primo?
+
+
+print("Verificador de numero primo")
+print("Se seu numero tiver mais de \033[7m 2 \033[m cores \033[33m AMARELAS \033[m ele  \033[31m NÃO \033[m é primo")
+
+
+print("\n")
+num= int(input("Digite um numero "))
+
+for c in range (1, num +1 ):
+    if num % c == 0:
+        print("\033[33m", end= "")
+    else:
+        print("\033[31m", end= "")
+    print( "{}" .format(c), end= "")
+
+
+'''
+
+
+
+
+
+
 
     
     
     
     
     
-
 
